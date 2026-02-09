@@ -1,4 +1,4 @@
-package org.bookhaven;
+package com.example.onlinebookstore.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;

@@ -1,4 +1,4 @@
-package org.bookhaven;
+package com.example.onlinebookstore.model;
 
 import lombok.Getter;
 import lombok.Setter;

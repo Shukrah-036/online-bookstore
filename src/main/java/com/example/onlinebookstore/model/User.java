@@ -1,9 +1,11 @@
-package org.bookhaven;
+package com.example.onlinebookstore.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import org.tinylog.Logger;
+
+import java.time.LocalDateTime;
 
 /**
  * The {@code User} class represents a user entity with information such as
@@ -77,5 +79,21 @@ public class User {
     @Getter
     @Setter
     private String country;
+
+    /**
+     * The timestamp representing when the user was created.
+     */
+    @Getter
+    @Setter
+    @Column(name = "created_at")
+    private LocalDateTime createdAt;
+
+    /**
+     * The timestamp representing when the user's details were last updated.
+     */
+    @Getter
+    @Setter
+    @Column(name = "updated_at")
+    private LocalDateTime updatedAt;
 
 }

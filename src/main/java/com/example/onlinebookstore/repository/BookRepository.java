@@ -1,6 +1,6 @@
-package com.example.onlinebookstore.Repository;
+package com.example.onlinebookstore.repository;
 
-import org.bookhaven.Book;
+import com.example.onlinebookstore.model.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

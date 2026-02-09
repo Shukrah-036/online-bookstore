@@ -1,5 +1,6 @@
-package com.example.onlinebookstore;
+package com.example.onlinebookstore.config;
 
+import com.example.onlinebookstore.util.PriceGenerator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -19,8 +20,8 @@ class PasswordEncoderConfig {
     }
 
     @Bean
-    public BookPricing bookPricing() {
-        return new BookPricing();
+    public PriceGenerator bookPricing() {
+        return new PriceGenerator();
     }
 
 }

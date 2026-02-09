@@ -1,9 +1,9 @@
 package com.example.onlinebookstore;
 
-import com.example.onlinebookstore.Controller.UserController;
-import com.example.onlinebookstore.Repository.UserRepository;
+import com.example.onlinebookstore.controller.UserController;
+import com.example.onlinebookstore.repository.UserRepository;
 import jakarta.servlet.http.HttpSession;
-import org.bookhaven.User;
+import com.example.onlinebookstore.model.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
