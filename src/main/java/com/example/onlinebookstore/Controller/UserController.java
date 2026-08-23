@@ -1,10 +1,10 @@
-package com.example.onlinebookstore.controller;
+package com.example.onlinebookstore.Controller;
 
-import com.example.onlinebookstore.repository.OrderDetailsRepository;
-import com.example.onlinebookstore.repository.UserRepository;
+import com.example.onlinebookstore.Repository.OrderDetailsRepository;
+import com.example.onlinebookstore.Repository.UserRepository;
 import org.springframework.ui.Model;
-import com.example.onlinebookstore.model.OrderDetails;
-import com.example.onlinebookstore.model.User;
+import org.bookhaven.OrderDetails;
+import org.bookhaven.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;

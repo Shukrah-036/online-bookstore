@@ -1,4 +1,4 @@
-package com.example.onlinebookstore.model;
+package org.bookhaven;
 
 /**
  * The {@code Genre} enum represents different genres that can be assigned to books.

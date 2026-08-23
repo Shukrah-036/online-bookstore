@@ -1,4 +1,4 @@
-package com.example.onlinebookstore.model;
+package org.bookhaven;
 
 import jakarta.persistence.*;
 import lombok.Getter;

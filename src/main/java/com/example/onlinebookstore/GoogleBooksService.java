@@ -1,8 +1,6 @@
-package com.example.onlinebookstore.service;
+package com.example.onlinebookstore;
 
-import com.example.onlinebookstore.util.PriceGenerator;
-import com.example.onlinebookstore.model.GoogleBooksApiResponse;
-import com.example.onlinebookstore.model.GoogleBook;
+import org.bookhaven.GoogleBook;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.HttpMethod;
@@ -22,7 +20,7 @@ public class GoogleBooksService {
     private RestTemplate restTemplate;
 
     @Autowired
-    private PriceGenerator bookPricing;
+    private BookPricing bookPricing;
 
     /**
      * Search for books by genre using the Google Books API.

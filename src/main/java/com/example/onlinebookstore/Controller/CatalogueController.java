@@ -1,6 +1,6 @@
-package com.example.onlinebookstore.controller;
+package com.example.onlinebookstore.Controller;
 
-import com.example.onlinebookstore.service.GoogleBooksService;
+import com.example.onlinebookstore.GoogleBooksService;
 import com.stripe.Stripe;
 import com.stripe.exception.StripeException;
 import com.stripe.model.Price;
@@ -12,7 +12,7 @@ import com.stripe.param.checkout.*;
 import com.example.onlinebookstore.TwilioService;
 
 
-import com.example.onlinebookstore.model.GoogleBook;
+import org.bookhaven.GoogleBook;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
